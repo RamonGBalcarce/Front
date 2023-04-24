@@ -1,0 +1,395 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+h2 {
+    font-size: 3.625rem;
+    line-height: 4.1rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 2.56rem;
+}
+
+h4 {
+    padding-left: 0.75rem;
+}
+
+h2, h3, h4 {
+    color: var(--main-blue);
+}
+
+p {
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/* HEADER Y NAV */
+
+header {
+    justify-content: space-between;
+    margin: 4.68rem 0;
+}
+
+header nav ul {
+    display: flex;
+    gap: 28px;
+}
+
+header ul a {
+    color: var(--main-blue);
+    transition: color .3s;
+}
+
+header ul a:hover {
+    color: #afb0b4;
+}
+
+.btn {
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 12px 30px;
+    color: #fff;
+    display: inline-block;
+    transition: background .5s;
+}
+
+.btn:hover {
+    background: #f98f75;
+    color: #fff4e2;
+}
+
+/* CONTENEDORES GENERICOS */
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INTRO */
+
+.row {
+    margin-bottom: 8rem;
+    gap: 3rem;
+}
+
+.col {
+    flex: 1;
+}
+
+.row .col:nth-child(1) p {
+    margin: 1.75rem 0;
+    padding-right: 30%;
+    font-weight: 500;
+    height: 71px;
+    
+
+}
+
+.img-intro {
+    width: 540px;
+    height: 461.07px;
+    max-width: 580px;
+
+}
+
+/* ABOUT */
+
+
+/* TESTIMONIO */
+
+.testimony.container-fluid {
+    padding: 0 2rem;
+}
+
+.testimony h2 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.testimony {
+    text-align: center;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 4.68rem;
+    margin-bottom: 2.8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.owl-carousel.owl-theme {
+    margin-top: 2.5rem;
+    margin-bottom: 2.8rem;
+    display: flex;
+}
+
+.owl-carousel .owl-item img {
+    width: 70px;
+}
+
+
+.card-head {
+    height: 35px;
+    position: relative;
+}
+
+.card-body {
+    text-align: center;
+    padding: 3.5rem 1.3rem 2.4rem 1.3rem;
+    background: #FAFAFA;
+}
+
+.card h5 {
+    padding-bottom: 1.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3F4868;
+}
+
+.card img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
+
+.card p {
+    color: #B9B9C1;
+}
+
+/* SIMPLIFY */
+
+.simplify p{
+    color: #FFFFFF;
+}
+
+
+.simplify .container p{
+    width: 450px;
+}
+
+
+.simplify {
+    position: relative;
+    margin-top: 6rem;
+    padding: 4rem 0;
+    background: #8B48BF;
+}
+
+.simplify h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    max-width: 450px;
+    line-height: 3rem;
+}
+
+.simplify .container {
+    justify-content: space-between;
+    z-index: 1;
+   
+   
+}
+
+.simplify .btn {
+    background:#fff;
+    color:#8B48BF ;
+    min-width: 148px;
+    transition: color 0.3s;
+}
+
+.simplify .btn:hover {
+    color: #f98f75;
+}
+
+/* FOOTER */
+
+footer {
+    background: #1E1E26;
+}
+
+footer a {
+    color: #FFFFFF;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #8B48BF;
+}
+
+footer .container {
+    padding: 4rem 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-nav {
+    flex: 1;
+}
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-social>a {
+    padding-bottom: 3rem;
+}
+
+.logo-social i {
+    font-size: 1.5rem;
+}
+
+.social ul {
+    display: flex;
+    gap: 13px;
+}
+
+footer nav ul li {
+    padding-bottom: 14px;
+}
+
+footer p {
+    width: 100%;
+    color: #8C8C94;
+    text-align: right;
+    font-size: 12px;
+}
+
+footer input {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+footer label {
+    font-size: 0rem;
+}
+
+footer button {
+    height: 44px;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 7rem;
+}
+
+/* SOBRE NOSOTROS */
+
+.mainns{
+    width: 100%;
+    padding-bottom: 97px;
+    margin-top: 50px;
+}
+
+.sobrenosotros{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.ns p{
+ padding-top:  18px;
+ padding-left: 80px;
+ 
+}
+
+.sobrenosotros .ns{
+    width: 500px;
+    
+}
+
+.otro{
+    width: 437px;
+    
+
+}
+.mainns2{
+   display: flex;
+   justify-content: center;
+   margin-top: 44px;
+}
+
+.otro p{
+    padding-top:  18px;
+ padding-left: 80px;
+ width: 500px;
+ 
+}
+
+/* MENU HAMB */
+.toggle {
+    display: none;
+}
+
+a.toggle {
+    background-image: ();
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 18px;
+    transition: .2s;
+}
+
+/* MEDIAS QUERIES */
+
+
+
